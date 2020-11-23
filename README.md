@@ -2,6 +2,8 @@
 LSDJ2DMW is a tool that rips wavetables from [LSDj (Little Sound Dj)](https://www.littlesounddj.com/) and converts them to the .dmw format for use in [Deflemask Tracker](https://deflemask.com/).
 This includes from songs currently loaded project or projects that are saved using LSDj's internal file compression system.
 
+Not guaranteed to work for versions of LSDj older than 6.7.0
+
 The latest release can be found [here](https://github.com/Pegmode/LSDJ2DMW/releases)
 
 ## Usage
