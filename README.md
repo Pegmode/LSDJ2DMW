@@ -5,7 +5,7 @@ This includes from songs currently loaded project or projects that are saved usi
 The latest release can be found [here](https://github.com/Pegmode/LSDJ2DMW/releases)
 
 ## Usage
-SDJ2SDMW <inputSavFilename> [options]
+`SDJ2SDMW <inputSavFilename> [options]`
  
 eg: \
 `LSDJ2SDMW.exe test1.sav` will rip all wavetables in the currently loaded song\
