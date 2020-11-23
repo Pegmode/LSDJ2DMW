@@ -38,9 +38,9 @@ void createFileBlocksBuffer(char* filePath, uint8_t* blockBuffer){
     fread(blockBuffer,FILE_BLOCKS_SIZE,1,f);
     fclose(f);
 
-    FILE* fz = fopen("debugout2.bin","wb");
-    fwrite(blockBuffer,1,FILE_BLOCKS_SIZE,fz);
-    fclose(fz);
+    //FILE* fz = fopen("debugout2.bin","wb");
+    //fwrite(blockBuffer,1,FILE_BLOCKS_SIZE,fz);
+    //fclose(fz);
 }
 int uncompressDefault(uint8_t* uncompressedFile,uint8_t* defaultContent,int uPos, int cPos, uint8_t* compressedFile){
     int loopLength = compressedFile[cPos];
