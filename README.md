@@ -24,12 +24,12 @@ All the wavetables in the currently loaded song will be dumped into the *./outpu
 #### Arguments:
 ##### Rip arguements
 * `-l`: rip all wavetables in loaded module (default)
-* `-lw`: <wavenumber>: rips a single wavetable from the loaded module
-* `-lwr`: <startWaveNumber>: rip a range of wavetables from the loaded module
+* `-lw <wavenumber>`: rips a single wavetable from the loaded module
+* `-lwr <startWaveNumber>`: rip a range of wavetables from the loaded module
 * `-a`: rips all wavetables from all saved songs
-* `-s`: <songname>: rip all wavetables from a single song
-* `-sw`: <songname> <wavenumber>: rips a specific wavetable from a given song (0-255)
-* `-swr`: <songname> <startWaveNumber> <endWaveNumber>: rips wavetables in a given range in a specific song (0-255)
+* `-s <songname>`: rip all wavetables from a single song
+* `-sw <songname> <wavenumber>`: rips a specific wavetable from a given song (0-255)
+* `-swr <songname> <startWaveNumber> <endWaveNumber>`: rips wavetables in a given range in a specific song (0-255)
 ##### display and formatting arugements
 * `-p`: print ripped waves and files
 * `-pw`: print ripped waves
