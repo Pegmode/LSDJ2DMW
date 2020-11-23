@@ -37,3 +37,6 @@ All the wavetables in the currently loaded song will be dumped into the *./outpu
 
 ## Build instructions
 To build run on windows just run `make`. I have gcc added to PATH. To build for linux (untested) run `make linux`. If you encounter any issues with either of these please let me know.
+
+## Other Credits
+Special thanks to Rytone, TakuikaNinja and INFU for help with information and test data.
