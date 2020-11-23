@@ -21,7 +21,7 @@ eg: \
 All the wavetables in the currently loaded song will be dumped into the *./outputwaves* directory. The program does not create this or check for it so make sure you have a folder with this name in the same directory as LSDJ2DMW.exe
 
 ### Further Usage
-#### Arguements:
+#### Arguments:
 ##### Rip arguements
 * `-l`: rip all wavetables in loaded module (default)
 * `-lw`" <wavenumber>: rips a single wavetable from the loaded module
