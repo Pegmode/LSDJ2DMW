@@ -23,6 +23,7 @@ All the wavetables in the currently loaded song will be dumped into the *./outpu
 ### Further Usage
 #### Arguments:
 ##### Rip arguements
+Only 1 may be used
 * `-l`: rip all wavetables in loaded module (default)
 * `-lw <wavenumber>`: rips a single wavetable from the loaded module
 * `-lwr <startWaveNumber>`: rip a range of wavetables from the loaded module
@@ -31,6 +32,7 @@ All the wavetables in the currently loaded song will be dumped into the *./outpu
 * `-sw <songname> <wavenumber>`: rips a specific wavetable from a given song (0-255)
 * `-swr <songname> <startWaveNumber> <endWaveNumber>`: rips wavetables in a given range in a specific song (0-255)
 ##### display and formatting arugements
+May use these in any combination
 * `-p`: print ripped waves and files
 * `-pw`: print ripped waves
 * `-pf`: print songs
