@@ -10,7 +10,7 @@ The latest release can be found [here](https://github.com/Pegmode/LSDJ2DMW/relea
 `SDJ2SDMW <inputSavFilename> [options]`
  
 eg: \
-`LSDJ2SDMW.exe test1.sav` will rip all wavetables in the currently loaded song\
+`LSDJ2DMW.exe test1.sav` will rip all wavetables in the currently loaded song\
 `LSDJ2DMW.exe test1.sav -swr TESTSONG 10 15` will rip wavetables 10-15 from the saved song TESTSONG\
 `LSDJ2DMW.exe test1.sav -p -s TESTSONG` will rip all the wavetables in the saved song TESTSONG and will print out all the ripped wavetables and will print out the filestructure of all the songs in your .sav\
 
