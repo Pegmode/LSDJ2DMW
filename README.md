@@ -38,9 +38,13 @@ May use these in any combination
 * `-pf`: print songs
 * `-x`: format outputted wavetable indices as hex
 * `-nw`: don't write files or parse files. Useful in combination with -p/-pf for reading songnames
-
+#### basic workflow:
+If you want to actively create an LSDJ synth/wavetable instrument, run LSDJ on an empty/new .sav and toy around with a synth/wavetable instrument that uses waves 0-F. Once you have the sound you want close your emulator ([BGB](https://bgb.bircd.org/) recomended) to update the .sav. Then run `LSDJ2DMW yoursav.sav -lwr 0 15` to rip the synth wavetables. Keep in mind that the speed and mode settings will not affect the wavetable output. You need to do this yourself by using wavetable macros in Deflemask. 
 ## Build instructions
-To build run on windows just run `make`. I have gcc added to PATH. To build for linux (untested) run `make linux`. If you encounter any issues with either of these please let me know.
+### windows
+To build run on windows just run `make`. Requires gcc and make from MinGW. I have gcc and make added to PATH so if you don't already have it added you will need to do so yourself.
+### linux
+To build for linux (untested) run `make linux`. If you encounter any issues please let me know.
 
 ## Other Credits
 Special thanks to Rytone, TakuikaNinja and INFU for help with LSDj's internal file structure, compression and test data.
