@@ -38,7 +38,7 @@ USAGE: LSDJ2SDMW <inputSavFilename> [options]\n\
 OPTIONS: \n\
 -l: rip all wavetables in loaded module (default)\n\
 -lw <wavenumber>: rips a single wavetable from the loaded module\n\
--lwr <startWaveNumber>: rip a range of wavetables from the loaded module\n\
+-lwr <startWaveNumber> <endWaveNumber>: rip a range of wavetables from the loaded module\n\
 -a: rips all wavetables from all saved songs\n\
 -s: <songname>: rip all wavetables from a single song\n\
 -sw: <songname> <wavenumber>: rips a specific wavetable from a given song (0-255)\n\
