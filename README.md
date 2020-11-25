@@ -26,7 +26,7 @@ All the wavetables in the currently loaded song will be dumped into the *./outpu
 Only 1 may be used
 * `-l`: rip all wavetables in loaded module (default)
 * `-lw <wavenumber>`: rips a single wavetable from the loaded module
-* `-lwr <startWaveNumber>`: rip a range of wavetables from the loaded module
+* `-lwr <startWaveNumber> <endWaveNumber>`: rip a range of wavetables from the loaded module
 * `-a`: rips all wavetables from all saved songs
 * `-s <songname>`: rip all wavetables from a single song
 * `-sw <songname> <wavenumber>`: rips a specific wavetable from a given song (0-255)
