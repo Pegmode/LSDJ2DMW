@@ -46,7 +46,7 @@ To build run on windows just run `make`. Requires gcc and make from MinGW. I hav
 ### linux
 To build for linux (untested) run `make linux`. If you encounter any issues please let me know.
 
-### TODO
+## TODO/Bugs
 * fix -lwr explanation in help string
 
 ## Other Credits
