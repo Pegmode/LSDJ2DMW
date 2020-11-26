@@ -46,5 +46,8 @@ To build run on windows just run `make`. Requires gcc and make from MinGW. I hav
 ### linux
 To build for linux (untested) run `make linux`. If you encounter any issues please let me know.
 
+### TODO
+* fix -lwr explanation in help string
+
 ## Other Credits
 Special thanks to Rytone, TakuikaNinja and INFU for help with LSDj's internal file structure, compression and test data.
