@@ -7,7 +7,7 @@ Not guaranteed to work for versions of LSDj older than 6.7.0
 The latest release can be found [here](https://github.com/Pegmode/LSDJ2DMW/releases)
 
 ## Usage
-`LSDJ2SDMW <inputSavFilename> [options]`
+`LSDJ2DMW <inputSavFilename> [options]`
 
 eg: \
 `LSDJ2DMW.exe test1.sav` will rip all wavetables in the currently loaded song\
