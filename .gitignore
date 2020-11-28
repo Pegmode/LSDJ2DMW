@@ -2,3 +2,6 @@ outputwaves/
 *.exe
 *.sav
 *.zip
+
+# linux binary
+LSDJ2DMW
