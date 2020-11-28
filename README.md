@@ -7,8 +7,8 @@ Not guaranteed to work for versions of LSDj older than 6.7.0
 The latest release can be found [here](https://github.com/Pegmode/LSDJ2DMW/releases)
 
 ## Usage
-`SDJ2SDMW <inputSavFilename> [options]`
- 
+`LSDJ2SDMW <inputSavFilename> [options]`
+
 eg: \
 `LSDJ2DMW.exe test1.sav` will rip all wavetables in the currently loaded song\
 `LSDJ2DMW.exe test1.sav -swr TESTSONG 10 15` will rip wavetables 10-15 from the saved song TESTSONG\
@@ -39,12 +39,12 @@ May use these in any combination
 * `-x`: format outputted wavetable indices as hex
 * `-nw`: don't write files or parse files. Useful in combination with -p/-pf for reading songnames
 #### basic workflow:
-If you want to actively create an LSDJ synth/wavetable instrument, run LSDJ on an empty/new .sav and toy around with a synth/wavetable instrument that uses waves 0-F. Once you have the sound you want close your emulator ([BGB](https://bgb.bircd.org/) recomended) to update the .sav. Then run `LSDJ2DMW yoursav.sav -lwr 0 15` to rip the synth wavetables. Keep in mind that the speed and mode settings will not affect the wavetable output. You need to do this yourself by using wavetable macros in Deflemask. 
+If you want to actively create an LSDJ synth/wavetable instrument, run LSDJ on an empty/new .sav and toy around with a synth/wavetable instrument that uses waves 0-F. Once you have the sound you want close your emulator ([BGB](https://bgb.bircd.org/) recomended) to update the .sav. Then run `LSDJ2DMW yoursav.sav -lwr 0 15` to rip the synth wavetables. Keep in mind that the speed and mode settings will not affect the wavetable output. You need to do this yourself by using wavetable macros in Deflemask.
 ## Build instructions
 ### windows
 To build run on windows just run `make`. Requires gcc and make from MinGW. I have gcc and make added to PATH so if you don't already have it added you will need to do so yourself.
 ### linux
-To build for linux (untested) run `make linux`. If you encounter any issues please let me know.
+To build for linux run `make`. You'll need make and gcc as well. If you encounter any issues please let me know.
 
 ## TODO/Bugs
 * fix -lwr explanation in help string
